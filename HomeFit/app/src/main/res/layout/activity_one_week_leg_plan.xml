@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OneWeekLegPlan">
+
+    <TextView
+        android:id="@+id/one_week_leg_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your One Week Leg Workout"
+        android:textColor="#07808E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+
+    <TextView
+        android:id="@+id/leg_day1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stiff Leg Deadlift + Split Squat"
+        android:textColor="#26B9CA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.213" />
+
+    <TextView
+        android:id="@+id/leg_day2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Side Lunge + Dumbbell Squat"
+        android:textColor="#26B9CA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.329" />
+
+    <TextView
+        android:id="@+id/leg_day3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One Leg Hip Up + Lunge Squat"
+        android:textColor="#26B9CA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.442" />
+
+    <TextView
+        android:id="@+id/leg_day4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Knee Toe Tap + Wall Sit"
+        android:textColor="#26B9CA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56" />
+
+
+    <TextView
+        android:id="@+id/leg_day5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pistol Squat + Squat Jump"
+        android:textColor="#26B9CA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.673" />
+
+    <TextView
+        android:id="@+id/leg_day6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Split Squat + One Leg Hip Up"
+        android:textColor="#26B9CA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+
+    <TextView
+        android:id="@+id/leg_day7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wall Sit + Stiff Leg Deadlift"
+        android:textColor="#26B9CA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <TextView
+        android:id="@+id/leg_monday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="Day 1"
+        android:textColor="#26B9CA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/leg_day1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/leg_tuesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="Day 2"
+        android:textColor="#26B9CA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/leg_day2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/leg_wednesday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="Day 3"
+        android:textColor="#26B9CA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/leg_day3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/leg_thursday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="Day 4"
+        android:textColor="#26B9CA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/leg_day4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/leg_friday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="Day 5"
+        android:textColor="#26B9CA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/leg_day5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/leg_saturday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="Day 6"
+        android:textColor="#26B9CA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/leg_day6"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/leg_sunday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="Day 7"
+        android:textColor="#26B9CA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/leg_day7"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/legday1sets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="5 Sets"
+        android:textColor="#26B9CA"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/legday1reps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" />
+
+    <TextView
+        android:id="@+id/legday1reps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text="10 Reps"
+        android:textColor="#26B9CA"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/leg_day1"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/legday2sets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="3 Sets"
+        android:textColor="#26B9CA"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/legday2reps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/legday1reps"
+        app:layout_constraintVertical_bias="0.909" />
+
+    <TextView
+        android:id="@+id/legday2reps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text="15 Reps"
+        android:textColor="#26B9CA"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/leg_day2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/legday3sets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="5 Sets"
+        android:textColor="#26B9CA"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/legday3reps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/legday2reps"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/legday3reps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text="10 Reps"
+        android:textColor="#26B9CA"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/leg_day3"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/legday4sets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="2 Sets"
+        android:textColor="#26B9CA"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/legday4reps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/legday3reps"
+        app:layout_constraintVertical_bias="0.911" />
+
+    <TextView
+        android:id="@+id/legday4reps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text="20 Reps"
+        android:textColor="#26B9CA"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/leg_day4"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/legday5sets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="5 Sets"
+        android:textColor="#26B9CA"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.641" />
+
+    <TextView
+        android:id="@+id/legday5reps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text="10 Reps"
+        android:textColor="#26B9CA"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/leg_day5"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/legday6sets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="3 Sets"
+        android:textColor="#26B9CA"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/legday6reps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/legday5reps"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <TextView
+        android:id="@+id/legday6reps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text="10 Reps"
+        android:textColor="#26B9CA"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/leg_day6"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/legday7sets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="5 Sets"
+        android:textColor="#26B9CA"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/legday7reps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/legday6reps"
+        app:layout_constraintVertical_bias="0.906" />
+
+    <TextView
+        android:id="@+id/legday7reps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:text="10 Reps"
+        android:textColor="#26B9CA"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/leg_day7"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

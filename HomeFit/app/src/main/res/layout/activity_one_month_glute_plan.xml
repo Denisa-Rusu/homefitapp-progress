@@ -1,0 +1,1751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".OneMonthGlutePlan">
+
+        <TextView
+            android:id="@+id/one_month_glute_plan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Your One Month Glute Workout"
+            android:textAlignment="center"
+            android:textColor="#20705C"
+            android:textColorHighlight="#20705C"
+            android:textColorHint="#20705C"
+            android:textColorLink="#20705C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_day1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reverse Lunge + Single Leg Bridge"
+            android:layout_marginTop="80dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/one_month_glute_plan" />
+
+        <TextView
+            android:id="@+id/glutes_day2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stiff Leg Deadlift + Hip Hinge Abduction"
+            android:layout_marginTop="80dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day1" />
+
+        <TextView
+            android:id="@+id/glutes_day3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Frog Pump + Semi Sumo DL Pulse"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day2" />
+
+        <TextView
+            android:id="@+id/glutes_day4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Single Leg Hip Thruster + Fire Hydrant"
+            android:layout_marginTop="80dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day3" />
+
+        <TextView
+            android:id="@+id/glutes_day5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dumbbell Bridge + Donkey Kicks"
+            android:layout_marginTop="80dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day4" />
+
+        <TextView
+            android:id="@+id/glutes_day6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Semi Sumo DL Pulse + Reverse Lunge"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day5" />
+
+        <TextView
+            android:id="@+id/glutes_day7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fire Hydrant + Dumbbell Bridge"
+            android:layout_marginTop="80dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day6"/>
+
+        <TextView
+            android:id="@+id/glutes_monday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 1"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day1"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_tuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 2"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_wednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 3"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day3"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 4"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day4"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_friday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 5"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_saturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 6"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day6"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_sunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 7"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day7"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday1sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday1reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.97" />
+
+        <TextView
+            android:id="@+id/glutesday1reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day1"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday2sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="3 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday2reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday1reps"
+            app:layout_constraintVertical_bias="0.909" />
+
+        <TextView
+            android:id="@+id/glutesday2reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="15 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day2"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday3sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday3reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday2reps"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/glutesday3reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day3"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday4sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="2 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday4reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday3reps"
+            app:layout_constraintVertical_bias="0.911" />
+
+        <TextView
+            android:id="@+id/glutesday4reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="20 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day4"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday5sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday4reps" />
+
+        <TextView
+            android:id="@+id/glutesday5reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day5"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday6sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="3 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday6reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday5reps"
+            app:layout_constraintVertical_bias="0.92" />
+
+        <TextView
+            android:id="@+id/glutesday6reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day6"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday7sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday7reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday6reps"
+            app:layout_constraintVertical_bias="0.906" />
+
+        <TextView
+            android:id="@+id/glutesday7reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day7"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <TextView
+            android:id="@+id/glutes_day8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Donkey Kicks + Single Leg Hip Thruster"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day7" />
+
+        <TextView
+            android:id="@+id/glutes_day9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Reverse Lunge + Stiff Leg Deadlift"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day8" />
+
+        <TextView
+            android:id="@+id/glutes_day10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Semi Sumo DL Pulse + Fire Hydrant"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day9" />
+
+        <TextView
+            android:id="@+id/glutes_day11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Hip Hinge Abduction + Single Leg Bridge"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day10" />
+
+        <TextView
+            android:id="@+id/glutes_day12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Dumbbell Bridge + Frog Pump"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day11" />
+
+        <TextView
+            android:id="@+id/glutes_day13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Stiff Leg Deadlift + Fire Hydrant"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day12" />
+
+        <TextView
+            android:id="@+id/glutes_day14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Single Leg Hip Thruster + Reverse Lunge"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day13" />
+
+        <TextView
+            android:id="@+id/glutes_monday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 8"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day8"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_tuesday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 9"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day9"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_wednesday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 10"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day10"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_thursday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 11"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day11"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_friday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 12"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day12"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_saturday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 13"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day13"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <TextView
+            android:id="@+id/glutes_sunday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 14"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day14"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday8sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday7reps" />
+
+        <TextView
+            android:id="@+id/glutesday8reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day8"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday9sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="3 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday9reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday8reps"
+            app:layout_constraintVertical_bias="0.909" />
+
+        <TextView
+            android:id="@+id/glutesday9reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="15 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day9"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday10sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday10reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday9reps"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/glutesday10reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day10"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday11sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="2 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday11reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday10reps"
+            app:layout_constraintVertical_bias="0.911" />
+
+        <TextView
+            android:id="@+id/glutesday11reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="20 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day11"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday12sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="20dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday11reps" />
+
+        <TextView
+            android:id="@+id/glutesday12reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day12"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday13sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="3 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday13reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday12reps"
+            app:layout_constraintVertical_bias="0.92" />
+
+        <TextView
+            android:id="@+id/glutesday13reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day13"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday14sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday14reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday13reps"
+            app:layout_constraintVertical_bias="0.906" />
+
+        <TextView
+            android:id="@+id/glutesday14reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day14"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/glutes_day15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reverse Lunge + Single Leg Bridge"
+            android:layout_marginTop="80dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day14" />
+
+        <TextView
+            android:id="@+id/glutes_day16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stiff Leg Deadlift + Hip Hinge Abduction"
+            android:layout_marginTop="80dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day15" />
+
+        <TextView
+            android:id="@+id/glutes_day17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Frog Pump + Semi Sumo DL Pulse"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day16" />
+
+        <TextView
+            android:id="@+id/glutes_day18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Single Leg Hip Thruster + Fire Hydrant"
+            android:layout_marginTop="80dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day17" />
+
+        <TextView
+            android:id="@+id/glutes_day19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dumbbell Bridge + Donkey Kicks"
+            android:layout_marginTop="80dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day18" />
+
+        <TextView
+            android:id="@+id/glutes_day20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Semi Sumo DL Pulse + Reverse Lunge"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day19" />
+
+        <TextView
+            android:id="@+id/glutes_day21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fire Hydrant + Dumbbell Bridge"
+            android:layout_marginTop="80dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day20"/>
+
+        <TextView
+            android:id="@+id/glutes_monday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 15"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day15"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_tuesday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 16"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day16"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_wednesday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 17"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day17"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_thursday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 18"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day18"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_friday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 19"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day19"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_saturday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 20"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day20"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_sunday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 21"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day21"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday15sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="20dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday14reps" />
+
+        <TextView
+            android:id="@+id/glutesday15reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day15"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday16sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="3 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday16reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday15reps"
+            app:layout_constraintVertical_bias="0.909" />
+
+        <TextView
+            android:id="@+id/glutesday16reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="15 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day16"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday17sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday17reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday16reps"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/glutesday17reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day17"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday18sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="2 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday18reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday17reps"
+            app:layout_constraintVertical_bias="0.911" />
+
+        <TextView
+            android:id="@+id/glutesday18reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="20 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day18"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday19sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday18reps" />
+
+        <TextView
+            android:id="@+id/glutesday19reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day19"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday20sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="3 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday20reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday19reps"
+            app:layout_constraintVertical_bias="0.92" />
+
+        <TextView
+            android:id="@+id/glutesday20reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day20"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday21sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday21reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday20reps"
+            app:layout_constraintVertical_bias="0.906" />
+
+        <TextView
+            android:id="@+id/glutesday21reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day21"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <TextView
+            android:id="@+id/glutes_day22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Donkey Kicks + Single Leg Hip Thruster"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day21" />
+
+        <TextView
+            android:id="@+id/glutes_day23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Reverse Lunge + Stiff Leg Deadlift"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day22" />
+
+        <TextView
+            android:id="@+id/glutes_day24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Semi Sumo DL Pulse + Fire Hydrant"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day23" />
+
+        <TextView
+            android:id="@+id/glutes_day25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Hip Hinge Abduction + Single Leg Bridge"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day24" />
+
+        <TextView
+            android:id="@+id/glutes_day26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Dumbbell Bridge + Frog Pump"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day25" />
+
+        <TextView
+            android:id="@+id/glutes_day27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Stiff Leg Deadlift + Fire Hydrant"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day26" />
+
+        <TextView
+            android:id="@+id/glutes_day28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Single Leg Hip Thruster + Reverse Lunge"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutes_day27" />
+
+        <TextView
+            android:id="@+id/glutes_monday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 22"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day22"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_tuesday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 23"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day23"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_wednesday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 24"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day24"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_thursday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 25"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day25"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_friday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 26"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day26"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutes_saturday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 27"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day27"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <TextView
+            android:id="@+id/glutes_sunday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 28"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day28"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday22sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday21reps" />
+
+        <TextView
+            android:id="@+id/glutesday22reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day22"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday23sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="3 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday23reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday22reps"
+            app:layout_constraintVertical_bias="0.909" />
+
+        <TextView
+            android:id="@+id/glutesday23reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="15 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day23"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday24sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday24reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday23reps"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/glutesday24reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day24"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday25sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="2 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday25reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday24reps"
+            app:layout_constraintVertical_bias="0.911" />
+
+        <TextView
+            android:id="@+id/glutesday25reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="20 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day25"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday26sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="20dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday25reps" />
+
+        <TextView
+            android:id="@+id/glutesday26reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day26"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday27sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="3 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday27reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday26reps"
+            app:layout_constraintVertical_bias="0.92" />
+
+        <TextView
+            android:id="@+id/glutesday27reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day27"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/glutesday28sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/glutesday28reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/glutesday27reps"
+            app:layout_constraintVertical_bias="0.906" />
+
+        <TextView
+            android:id="@+id/glutesday28reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/glutes_day28"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

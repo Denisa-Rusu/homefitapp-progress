@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.homefit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HomeFit">
+        <activity
+            android:name=".ArmWorkoutGuide"
+            android:exported="false" />
+        <activity
+            android:name=".AbWorkoutGuide"
+            android:exported="false" />
+        <activity
+            android:name=".GluteWorkoutGuide"
+            android:exported="false" />
+        <activity
+            android:name=".ChestWorkoutGuide"
+            android:exported="false" />
+        <activity
+            android:name=".LegWorkoutGuide"
+            android:exported="false" />
+        <activity
+            android:name=".OneMonthProgress"
+            android:exported="false" />
+        <activity
+            android:name=".TwoWeekProgress"
+            android:exported="false" />
+        <activity
+            android:name=".OneWeekProgress"
+            android:exported="false" />
+        <activity
+            android:name=".AbWorkoutAdvice"
+            android:exported="false" />
+        <activity
+            android:name=".GluteWorkoutAdvice"
+            android:exported="false" />
+        <activity
+            android:name=".ChestWorkoutAdvice"
+            android:exported="false" />
+        <activity
+            android:name=".LegWorkoutAdvice"
+            android:exported="false" />
+        <activity
+            android:name=".ArmWorkoutAdvice"
+            android:exported="false" />
+        <activity
+            android:name=".EncouragementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecommendationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OneMonthAbPlan"
+            android:exported="false" />
+        <activity
+            android:name=".OneMonthGlutePlan"
+            android:exported="false" />
+        <activity
+            android:name=".OneMonthChestPlan"
+            android:exported="false" />
+        <activity
+            android:name=".OneMonthLegPlan"
+            android:exported="false" />
+        <activity
+            android:name=".OneMonthArmPlan"
+            android:exported="false" />
+        <activity
+            android:name=".TwoWeekAbPlan"
+            android:exported="false" />
+        <activity
+            android:name=".TwoWeekGlutePlan"
+            android:exported="false" />
+        <activity
+            android:name=".TwoWeekChestPlan"
+            android:exported="false" />
+        <activity
+            android:name=".TwoWeekLegPlan"
+            android:exported="false" />
+        <activity
+            android:name=".OneWeekAbPlan"
+            android:exported="false" />
+        <activity
+            android:name=".OneWeekGlutePlan"
+            android:exported="false" />
+        <activity
+            android:name=".OneWeekChestPlan"
+            android:exported="false" />
+        <activity
+            android:name=".OneWeekLegPlan"
+            android:exported="false" />
+        <activity
+            android:name=".TwoWeekArmPlan"
+            android:exported="false" />
+        <activity
+            android:name=".OneWeekArmPlan"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InitialLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
