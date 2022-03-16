@@ -1,0 +1,1756 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".BeginnerLegPlan">
+
+        <TextView
+            android:id="@+id/beginner_leg_plan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="104dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Your Beginner Leg Plan"
+            android:textAlignment="center"
+            android:textColor="#07808E"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.538"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/leg_day1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Stiff Leg Deadlift + Split Squat"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/beginner_leg_plan" />
+
+        <TextView
+            android:id="@+id/leg_day2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Side Lunge + Dumbbell Squat"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day1" />
+
+        <TextView
+            android:id="@+id/leg_day3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="One Leg Hip Up + Lunge Squat"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day2" />
+
+        <TextView
+            android:id="@+id/leg_day4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="High Knee Toe Tap + Wall Sit"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day3" />
+
+        <TextView
+            android:id="@+id/leg_day5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Pistol Squat + Squat Jump"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day4" />
+
+        <TextView
+            android:id="@+id/leg_day6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Break"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day5" />
+
+        <TextView
+            android:id="@+id/leg_day7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Break"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day6" />
+
+
+        <TextView
+            android:id="@+id/leg_monday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 1"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day1"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_tuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 2"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_wednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 3"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day3"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 4"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day4"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_friday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 5"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_saturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 6"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day6"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_sunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 7"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day7"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/legday1sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday1reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.97" />
+
+        <TextView
+            android:id="@+id/legday1reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day1"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday2sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="3 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday2reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday1reps"
+            app:layout_constraintVertical_bias="0.909" />
+
+        <TextView
+            android:id="@+id/legday2reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="15 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day2"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday3sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday3reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday2reps"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/legday3reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day3"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday4sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="2 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday4reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday3reps"
+            app:layout_constraintVertical_bias="0.911" />
+
+        <TextView
+            android:id="@+id/legday4reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="20 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day4"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday5sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="20dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday4reps" />
+
+        <TextView
+            android:id="@+id/legday5reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day5"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday6sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday6reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday5reps"
+            app:layout_constraintVertical_bias="0.92" />
+
+        <TextView
+            android:id="@+id/legday6reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day6"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday7sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday7reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday6reps"
+            app:layout_constraintVertical_bias="0.906" />
+
+        <TextView
+            android:id="@+id/legday7reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day7"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <TextView
+            android:id="@+id/leg_day8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Squat Jump + High Knee Toe Tap"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day7" />
+
+        <TextView
+            android:id="@+id/leg_day9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Pistol Squat + Lunge Squat"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day8" />
+
+        <TextView
+            android:id="@+id/leg_day10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="One Leg Hip Up + Wall Sit"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day9" />
+
+
+        <TextView
+            android:id="@+id/leg_day11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Dumbbell Squat + Side Lunge"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day10" />
+
+        <TextView
+            android:id="@+id/leg_day12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="84dp"
+            android:text="Split Squat + Stiff Leg Deadlift"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.468"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day11" />
+
+        <TextView
+            android:id="@+id/leg_day13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Break"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day12" />
+
+
+        <TextView
+            android:id="@+id/leg_day14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Break"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day13" />
+
+        <TextView
+            android:id="@+id/leg_monday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 8"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day8"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_tuesday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 9"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day9"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_wednesday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 10"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day10"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_thursday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 11"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day11"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_friday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 12"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day12"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_saturday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 13"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day13"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <TextView
+            android:id="@+id/leg_sunday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 14"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day14"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/legday8sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday7reps" />
+
+        <TextView
+            android:id="@+id/legday8reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day8"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday9sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="3 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday9reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday8reps"
+            app:layout_constraintVertical_bias="0.909" />
+
+        <TextView
+            android:id="@+id/legday9reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="15 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day9"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday10sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="2 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday10reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday9reps"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/legday10reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="20 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day10"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday11sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday11reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday10reps"
+            app:layout_constraintVertical_bias="0.911" />
+
+        <TextView
+            android:id="@+id/legday11reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day11"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday12sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="20dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday11reps" />
+
+        <TextView
+            android:id="@+id/legday12reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day12"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday13sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday13reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday12reps"
+            app:layout_constraintVertical_bias="0.92" />
+
+        <TextView
+            android:id="@+id/legday13reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day13"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday14sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday14reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday13reps"
+            app:layout_constraintVertical_bias="0.906" />
+
+        <TextView
+            android:id="@+id/legday14reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day14"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/leg_day15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Stiff Leg Deadlift + Split Squat"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day14" />
+
+
+        <TextView
+            android:id="@+id/leg_day16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Side Lunge + Dumbbell Squat"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day15" />
+
+        <TextView
+            android:id="@+id/leg_day17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="One Leg Hip Up + Lunge Squat"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day16" />
+
+        <TextView
+            android:id="@+id/leg_day18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="High Knee Toe Tap + Wall Sit"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day17" />
+
+
+        <TextView
+            android:id="@+id/leg_day19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Pistol Squat + Squat Jump"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day18" />
+
+        <TextView
+            android:id="@+id/leg_day20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Break"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day19" />
+
+        <TextView
+            android:id="@+id/leg_day21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Break"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day20" />
+
+        <TextView
+            android:id="@+id/leg_monday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 15"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day15"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_tuesday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 16"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day16"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_wednesday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 17"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day17"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_thursday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 18"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day18"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_friday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 19"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day19"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_saturday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 20"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day20"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <TextView
+            android:id="@+id/leg_sunday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 21"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day21"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/legday15sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday14reps" />
+
+        <TextView
+            android:id="@+id/legday15reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day15"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday16sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="3 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday16reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday15reps"
+            app:layout_constraintVertical_bias="0.909" />
+
+        <TextView
+            android:id="@+id/legday16reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="15 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day16"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday17sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday17reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday16reps"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/legday17reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day17"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday18sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="2 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday18reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday17reps"
+            app:layout_constraintVertical_bias="0.911" />
+
+        <TextView
+            android:id="@+id/legday18reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="20 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day18"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday19sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="20dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday18reps" />
+
+        <TextView
+            android:id="@+id/legday19reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day19"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday20sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday20reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday19reps"
+            app:layout_constraintVertical_bias="0.92" />
+
+        <TextView
+            android:id="@+id/legday20reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day20"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday21sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday21reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday20reps"
+            app:layout_constraintVertical_bias="0.906" />
+
+        <TextView
+            android:id="@+id/legday21reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day21"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/leg_day22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Squat Jump + High Knee Toe Tap"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day21" />
+
+        <TextView
+            android:id="@+id/leg_day23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Pistol Squat + Lunge Squat"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day22" />
+
+        <TextView
+            android:id="@+id/leg_day24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="One Leg Hip Up + Wall Sit"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day23" />
+
+
+        <TextView
+            android:id="@+id/leg_day25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Dumbbell Squat + Side Lunge"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day24" />
+
+        <TextView
+            android:id="@+id/leg_day26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Split Squat + Stiff Leg Deadlift"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day25" />
+
+        <TextView
+            android:id="@+id/leg_day27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Break"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day26" />
+
+
+        <TextView
+            android:id="@+id/leg_day28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Break"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leg_day27" />
+
+
+        <TextView
+            android:id="@+id/leg_monday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 22"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day22"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_tuesday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 23"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day23"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_wednesday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 24"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day24"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_thursday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 25"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day25"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_friday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 26"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day26"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/leg_saturday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 27"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day27"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <TextView
+            android:id="@+id/leg_sunday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 28"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day28"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+
+        <TextView
+            android:id="@+id/legday22sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday21reps" />
+
+        <TextView
+            android:id="@+id/legday22reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day22"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday23sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="3 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday23reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday22reps"
+            app:layout_constraintVertical_bias="0.909" />
+
+        <TextView
+            android:id="@+id/legday23reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="15 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day23"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday24sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="2 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday24reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday23reps"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/legday24reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="20 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day24"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday25sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday25reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday24reps"
+            app:layout_constraintVertical_bias="0.911" />
+
+        <TextView
+            android:id="@+id/legday25reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day25"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday26sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="20dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday25reps" />
+
+        <TextView
+            android:id="@+id/legday26reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day26"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday27sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday27reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday26reps"
+            app:layout_constraintVertical_bias="0.92" />
+
+        <TextView
+            android:id="@+id/legday27reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day27"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/legday28sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/legday28reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/legday27reps"
+            app:layout_constraintVertical_bias="0.906" />
+
+        <TextView
+            android:id="@+id/legday28reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/leg_day28"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#39D0E1"
+            android:onClick="goToWorkout"
+            android:text="Start Workout"
+            android:textColor="#F1EDED"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.925"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

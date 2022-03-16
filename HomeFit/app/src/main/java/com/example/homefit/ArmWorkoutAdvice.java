@@ -29,6 +29,6 @@ public class ArmWorkoutAdvice extends AppCompatActivity {
 
     public void continueToPlan(View view) {
 
-        startActivity(new Intent(ArmWorkoutAdvice.this, OneWeekArmPlan.class));
+        startActivity(new Intent(ArmWorkoutAdvice.this, BeginnerArmPlan.class));
     }
 }

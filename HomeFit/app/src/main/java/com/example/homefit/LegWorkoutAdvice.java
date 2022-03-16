@@ -30,7 +30,7 @@ public class LegWorkoutAdvice extends AppCompatActivity {
 
     public void continueToPlan(View view) {
 
-        startActivity(new Intent(LegWorkoutAdvice.this, OneWeekLegPlan.class));
+        startActivity(new Intent(LegWorkoutAdvice.this, BeginnerLegPlan.class));
     }
 
 }

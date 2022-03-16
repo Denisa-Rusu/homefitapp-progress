@@ -190,14 +190,14 @@ public class DetailsActivity extends AppCompatActivity {
 
         if (ctb.equalsIgnoreCase("Less than 1,000 Cals") && fg.equalsIgnoreCase("Arms") && fa.equalsIgnoreCase("Inactive")) {
 
-            Intent intent = new Intent (this, OneWeekArmPlan.class);
+            Intent intent = new Intent (this, BeginnerArmPlan.class);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             startActivity(intent);
             return;
 
         }else if (ctb.equalsIgnoreCase("Between 1,000 and 2,500 Cals") && fg.equalsIgnoreCase("Arms") && fa.equalsIgnoreCase("Inactive")) {
 
-            Intent intent = new Intent(this, TwoWeekArmPlan.class);
+            Intent intent = new Intent(this, ModerateArmPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
@@ -213,21 +213,21 @@ public class DetailsActivity extends AppCompatActivity {
 
         }else if (ctb.equalsIgnoreCase("Between 1,000 and 2,500 Cals") && fg.equalsIgnoreCase("Arms") && fa.equalsIgnoreCase("Active")) {
 
-            Intent intent = new Intent(this, TwoWeekArmPlan.class);
+            Intent intent = new Intent(this, ModerateArmPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         }else if (ctb.equalsIgnoreCase("Less than 1,000 Cals") && fg.equalsIgnoreCase("Arms") && fa.equalsIgnoreCase("Active")) {
 
-            Intent intent = new Intent(this, OneWeekArmPlan.class);
+            Intent intent = new Intent(this, BeginnerArmPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         }else if (ctb.equalsIgnoreCase("More than 2,500 Cals") && fg.equalsIgnoreCase("Arms") && fa.equalsIgnoreCase("Active")) {
 
-            Intent intent = new Intent(this, OneMonthArmPlan.class);
+            Intent intent = new Intent(this, IntenseArmPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
@@ -236,13 +236,13 @@ public class DetailsActivity extends AppCompatActivity {
 
 
         }else if (ctb.equalsIgnoreCase("More than 2,500 Cals") && fg.equalsIgnoreCase("Arms") && fa.equalsIgnoreCase("Very Active")) {
-            Intent intent = new Intent(this, OneMonthArmPlan.class);
+            Intent intent = new Intent(this, IntenseArmPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         } else if (ctb.equalsIgnoreCase("Between 1,000 and 2,500 Cals") && fg.equalsIgnoreCase("Arms") && fa.equalsIgnoreCase("Very Active")) {
-            Intent intent = new Intent(this, TwoWeekArmPlan.class);
+            Intent intent = new Intent(this, ModerateArmPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
@@ -258,13 +258,13 @@ public class DetailsActivity extends AppCompatActivity {
 
 
         }else if (ctb.equalsIgnoreCase("Less than 1,000 Cals") && fg.equalsIgnoreCase("Legs") && fa.equalsIgnoreCase("Inactive")) {
-            Intent intent = new Intent(this, OneWeekLegPlan.class);
+            Intent intent = new Intent(this, BeginnerLegPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         }else if (ctb.equalsIgnoreCase("Between 1,000 and 2,500 Cals") && fg.equalsIgnoreCase("Legs") && fa.equalsIgnoreCase("Inactive")) {
-            Intent intent = new Intent(this, TwoWeekLegPlan.class);
+            Intent intent = new Intent(this, ModerateLegPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
@@ -275,31 +275,31 @@ public class DetailsActivity extends AppCompatActivity {
             return;
 
         }else if (ctb.equalsIgnoreCase("Between 1,000 and 2,500 Cals") && fg.equalsIgnoreCase("Legs") && fa.equalsIgnoreCase("Active")) {
-            Intent intent = new Intent(this, TwoWeekLegPlan.class);
+            Intent intent = new Intent(this, ModerateLegPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         }else if (ctb.equalsIgnoreCase("Less than 1,000 Cals") && fg.equalsIgnoreCase("Legs") && fa.equalsIgnoreCase("Active")) {
-            Intent intent = new Intent(this, OneWeekLegPlan.class);
+            Intent intent = new Intent(this, BeginnerLegPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         }else if (ctb.equalsIgnoreCase("More than 2,500 Cals") && fg.equalsIgnoreCase("Legs") && fa.equalsIgnoreCase("Active")) {
-            Intent intent = new Intent(this, OneMonthLegPlan.class);
+            Intent intent = new Intent(this, IntenseLegPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         }else if (ctb.equalsIgnoreCase("More than 2,500 Cals") && fg.equalsIgnoreCase("Legs") && fa.equalsIgnoreCase("Very Active")) {
-            Intent intent = new Intent(this, OneMonthLegPlan.class);
+            Intent intent = new Intent(this, IntenseLegPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         }else if (ctb.equalsIgnoreCase("Between 1,000 and 2,500 Cals") && fg.equalsIgnoreCase("Legs") && fa.equalsIgnoreCase("Very Active")) {
-            Intent intent = new Intent(this, TwoWeekLegPlan.class);
+            Intent intent = new Intent(this, ModerateLegPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
@@ -314,13 +314,13 @@ public class DetailsActivity extends AppCompatActivity {
 
 
         }else if (ctb.equalsIgnoreCase("Less than 1,000 Cals") && fg.equalsIgnoreCase("Chest") && fa.equalsIgnoreCase("Inactive")) {
-            Intent intent = new Intent(this, OneWeekChestPlan.class);
+            Intent intent = new Intent(this, BeginnerChestPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         }else if (ctb.equalsIgnoreCase("Between 1,000 and 2,500 Cals") && fg.equalsIgnoreCase("Chest") && fa.equalsIgnoreCase("Inactive")) {
-            Intent intent = new Intent(this, TwoWeekChestPlan.class);
+            Intent intent = new Intent(this, ModerateChestPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
@@ -333,32 +333,32 @@ public class DetailsActivity extends AppCompatActivity {
 
 
         }else if (ctb.equalsIgnoreCase("Between 1,000 and 2,500 Cals") && fg.equalsIgnoreCase("Chest") && fa.equalsIgnoreCase("Active")) {
-            Intent intent = new Intent(this, TwoWeekChestPlan.class);
+            Intent intent = new Intent(this, ModerateChestPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         }else if (ctb.equalsIgnoreCase("Less than 1,000 Cals") && fg.equalsIgnoreCase("Chest") && fa.equalsIgnoreCase("Active")) {
-            Intent intent = new Intent(this, OneWeekChestPlan.class);
+            Intent intent = new Intent(this, BeginnerChestPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         }else if (ctb.equalsIgnoreCase("More than 2,500 Cals") && fg.equalsIgnoreCase("Chest") && fa.equalsIgnoreCase("Active")) {
-            Intent intent = new Intent(this, OneMonthChestPlan.class);
+            Intent intent = new Intent(this, IntenseChestPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
 
         }else if (ctb.equalsIgnoreCase("More than 2,500 Cals") && fg.equalsIgnoreCase("Chest") && fa.equalsIgnoreCase("Very Active")) {
-            Intent intent = new Intent(this, OneMonthChestPlan.class);
+            Intent intent = new Intent(this, IntenseChestPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         }else if (ctb.equalsIgnoreCase("Between 1,000 and 2,500 Cals") && fg.equalsIgnoreCase("Chest") && fa.equalsIgnoreCase("Very Active")) {
-            Intent intent = new Intent(this, TwoWeekChestPlan.class);
+            Intent intent = new Intent(this, ModerateChestPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
@@ -374,13 +374,13 @@ public class DetailsActivity extends AppCompatActivity {
 
 
         }else if (ctb.equalsIgnoreCase("Less than 1,000 Cals") && fg.equalsIgnoreCase("Glutes") && fa.equalsIgnoreCase("Inactive")) {
-            Intent intent = new Intent(this, OneWeekGlutePlan.class);
+            Intent intent = new Intent(this, BeginnerGlutePlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         }else if (ctb.equalsIgnoreCase("Between 1,000 and 2,500 Cals") && fg.equalsIgnoreCase("Glutes") && fa.equalsIgnoreCase("Inactive")) {
-            Intent intent = new Intent(this, TwoWeekGlutePlan.class);
+            Intent intent = new Intent(this, ModerateGlutePlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
@@ -392,31 +392,31 @@ public class DetailsActivity extends AppCompatActivity {
             return;
 
         }else if (ctb.equalsIgnoreCase("Between 1,000 and 2,500 Cals") && fg.equalsIgnoreCase("Glutes") && fa.equalsIgnoreCase("Active")) {
-            Intent intent = new Intent(this, TwoWeekGlutePlan.class);
+            Intent intent = new Intent(this, ModerateGlutePlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         }else if (ctb.equalsIgnoreCase("Less than 1,000 Cals") && fg.equalsIgnoreCase("Glutes") && fa.equalsIgnoreCase("Active")) {
-            Intent intent = new Intent(this, OneWeekGlutePlan.class);
+            Intent intent = new Intent(this, BeginnerGlutePlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         }else if (ctb.equalsIgnoreCase("More than 2,500 Cals") && fg.equalsIgnoreCase("Glutes") && fa.equalsIgnoreCase("Active")) {
-            Intent intent = new Intent(this, OneMonthGlutePlan.class);
+            Intent intent = new Intent(this, IntenseGlutePlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         }else if (ctb.equalsIgnoreCase("More than 2,500 Cals") && fg.equalsIgnoreCase("Glutes") && fa.equalsIgnoreCase("Very Active")) {
-            Intent intent = new Intent(this, OneMonthGlutePlan.class);
+            Intent intent = new Intent(this, IntenseGlutePlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         }else if (ctb.equalsIgnoreCase("Between 1,000 and 2,500 Cals") && fg.equalsIgnoreCase("Glutes") && fa.equalsIgnoreCase("Very Active")) {
-            Intent intent = new Intent(this, TwoWeekGlutePlan.class);
+            Intent intent = new Intent(this, ModerateGlutePlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
@@ -433,13 +433,13 @@ public class DetailsActivity extends AppCompatActivity {
 
 
         }else if (ctb.equalsIgnoreCase("Less than 1,000 Cals") && fg.equalsIgnoreCase("Abs") && fa.equalsIgnoreCase("Inactive")) {
-            Intent intent = new Intent(this, OneWeekAbPlan.class);
+            Intent intent = new Intent(this, BeginnerAbPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         } else if (ctb.equalsIgnoreCase("Between 1,000 and 2,500 Cals") && fg.equalsIgnoreCase("Abs") && fa.equalsIgnoreCase("Inactive")) {
-            Intent intent = new Intent(this, TwoWeekAbPlan.class);
+            Intent intent = new Intent(this, ModerateAbPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
@@ -451,31 +451,31 @@ public class DetailsActivity extends AppCompatActivity {
             return;
 
         } else if (ctb.equalsIgnoreCase("Between 1,000 and 2,500 Cals") && fg.equalsIgnoreCase("Abs") && fa.equalsIgnoreCase("Active")) {
-            Intent intent = new Intent(this, TwoWeekAbPlan.class);
+            Intent intent = new Intent(this, ModerateAbPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         } else if (ctb.equalsIgnoreCase("Less than 1,000 Cals") && fg.equalsIgnoreCase("Abs") && fa.equalsIgnoreCase("Active")) {
-            Intent intent = new Intent(this, OneWeekAbPlan.class);
+            Intent intent = new Intent(this, BeginnerAbPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         } else if (ctb.equalsIgnoreCase("More than 2,500 Cals") && fg.equalsIgnoreCase("Abs") && fa.equalsIgnoreCase("Active")) {
-            Intent intent = new Intent(this, OneMonthAbPlan.class);
+            Intent intent = new Intent(this, IntenseAbPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         } else if (ctb.equalsIgnoreCase("More than 2,500 Cals") && fg.equalsIgnoreCase("Abs") && fa.equalsIgnoreCase("Very Active")) {
-            Intent intent = new Intent(this, OneMonthAbPlan.class);
+            Intent intent = new Intent(this, IntenseAbPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;
 
         } else if (ctb.equalsIgnoreCase("Between 1,000 and 2,500 Cals") && fg.equalsIgnoreCase("Abs") && fa.equalsIgnoreCase("Very Active")) {
-            Intent intent = new Intent(this, TwoWeekAbPlan.class);
+            Intent intent = new Intent(this, ModerateAbPlan.class);
             startActivity(intent);
             Toast.makeText(DetailsActivity.this, "User Details saved", Toast.LENGTH_LONG).show();
             return;

@@ -29,6 +29,6 @@ public class ChestWorkoutAdvice extends AppCompatActivity {
 
     public void continueToPlan(View view) {
 
-        startActivity(new Intent(ChestWorkoutAdvice.this, OneWeekChestPlan.class));
+        startActivity(new Intent(ChestWorkoutAdvice.this, BeginnerChestPlan.class));
     }
 }

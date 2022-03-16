@@ -29,6 +29,6 @@ public class AbWorkoutAdvice extends AppCompatActivity {
 
     public void continueToPlan(View view) {
 
-        startActivity(new Intent(AbWorkoutAdvice.this, OneWeekAbPlan.class));
+        startActivity(new Intent(AbWorkoutAdvice.this, BeginnerAbPlan.class));
     }
 }

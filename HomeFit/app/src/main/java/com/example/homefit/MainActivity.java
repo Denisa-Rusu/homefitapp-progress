@@ -32,8 +32,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
 
-
-
         register = (TextView) findViewById(R.id.register);
         register.setOnClickListener(this);
 
@@ -85,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
                 if (task.isSuccessful()) {
-                    startActivity(new Intent(MainActivity.this, ProfileActivity.class));
+                    startActivity(new Intent(MainActivity.this, WorkoutActivity.class));
                 } else {
                     Toast.makeText(MainActivity.this, "Unsuccessful Login, try again", Toast.LENGTH_LONG).show();
                 }

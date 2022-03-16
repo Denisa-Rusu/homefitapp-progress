@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ModerateChestPlan">
+
+        <TextView
+            android:id="@+id/moderate_chest_plan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="104dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Your Moderate Chest Plan"
+            android:textAlignment="center"
+            android:textColor="#07808E"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.538"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/chest_day1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Hand Release Pushup + Spin Press"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/moderate_chest_plan" />
+
+        <TextView
+            android:id="@+id/chest_day2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Decline Pushup + Dumbbell Floor Press"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day1" />
+
+        <TextView
+            android:id="@+id/chest_day3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="One Leg Pushup + Finger Out Pushup"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day2" />
+
+        <TextView
+            android:id="@+id/chest_day4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Diamond Pushup + Lying Dumbbell Fly"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day3" />
+
+
+        <TextView
+            android:id="@+id/chest_day5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="76dp"
+            android:text="Spiderman Pushup + Dumbbell Pull Over"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day4" />
+
+        <TextView
+            android:id="@+id/chest_day6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Lying Dumbbell Fly + Spin Press"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day5" />
+
+        <TextView
+            android:id="@+id/chest_day7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:text="Break"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day6" />
+
+        <TextView
+            android:id="@+id/chest_monday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 1"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day1"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_tuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 2"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_wednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 3"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day3"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_thursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 4"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day4"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_friday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 5"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_saturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 6"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day6"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_sunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 7"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day7"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday1sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday1reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.97" />
+
+        <TextView
+            android:id="@+id/chestday1reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day1"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday2sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday2reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday1reps"
+            app:layout_constraintVertical_bias="0.909" />
+
+        <TextView
+            android:id="@+id/chestday2reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="15 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day2"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday3sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday3reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday2reps"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/chestday3reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day3"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday4sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="2 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday4reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday3reps"
+            app:layout_constraintVertical_bias="0.911" />
+
+        <TextView
+            android:id="@+id/chestday4reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="20 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day4"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday5sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="20dp"
+            android:text="3 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday4reps" />
+
+        <TextView
+            android:id="@+id/chestday5reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="15 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day5"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday6sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday6reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday5reps"
+            app:layout_constraintVertical_bias="0.92" />
+
+        <TextView
+            android:id="@+id/chestday6reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day6"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday7sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday7reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday6reps"
+            app:layout_constraintVertical_bias="0.906" />
+
+        <TextView
+            android:id="@+id/chestday7reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day7"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <TextView
+            android:id="@+id/chest_day8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Dumbbell Pull Over + Diamond Pushup"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day7" />
+
+        <TextView
+            android:id="@+id/chest_day9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Spin Press + Hand Release Pushup"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day8" />
+
+        <TextView
+            android:id="@+id/chest_day10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Dumbbell Floor Press + Decline Pushup"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day9" />
+
+
+        <TextView
+            android:id="@+id/chest_day11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Dumbbell Floor Press + One Leg Pushup"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day10" />
+
+        <TextView
+            android:id="@+id/chest_day12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Finger Out Pushup + Lying Dumbbell Fly"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day11" />
+
+        <TextView
+            android:id="@+id/chest_day13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:text="Spiderman Pushup + Dumbbell Pull Over"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day12" />
+
+        <TextView
+            android:id="@+id/chest_day14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Break"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day13" />
+
+        <TextView
+            android:id="@+id/chest_monday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 8"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day8"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_tuesday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 9"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day9"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_wednesday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 10"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day10"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_thursday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 11"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day11"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_friday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 12"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day12"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_saturday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 13"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day13"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <TextView
+            android:id="@+id/chest_sunday2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 14"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day14"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday8sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday7reps" />
+
+        <TextView
+            android:id="@+id/chestday8reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day8"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday9sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday9reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday8reps"
+            app:layout_constraintVertical_bias="0.909" />
+
+        <TextView
+            android:id="@+id/chestday9reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="15 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day9"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday10sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday10reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday9reps"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/chestday10reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day10"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday11sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="2 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday11reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday10reps"
+            app:layout_constraintVertical_bias="0.911" />
+
+        <TextView
+            android:id="@+id/chestday11reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="20 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day11"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday12sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="20dp"
+            android:text="3 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday11reps" />
+
+        <TextView
+            android:id="@+id/chestday12reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="15 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day12"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday13sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday13reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday12reps"
+            app:layout_constraintVertical_bias="0.92" />
+
+        <TextView
+            android:id="@+id/chestday13reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day13"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday14sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday14reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday13reps"
+            app:layout_constraintVertical_bias="0.906" />
+
+        <TextView
+            android:id="@+id/chestday14reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day14"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+        <TextView
+            android:id="@+id/chest_day15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Hand Release Pushup + Spin Press"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day14" />
+
+        <TextView
+            android:id="@+id/chest_day16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Decline Pushup + Dumbbell Floor Press"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day15" />
+
+        <TextView
+            android:id="@+id/chest_day17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="One Leg Pushup + Finger Out Pushup"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day16" />
+
+        <TextView
+            android:id="@+id/chest_day18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Diamond Pushup + Lying Dumbbell Fly"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day17" />
+
+
+        <TextView
+            android:id="@+id/chest_day19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="76dp"
+            android:text="Spiderman Pushup + Dumbbell Pull Over"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day18" />
+
+        <TextView
+            android:id="@+id/chest_day20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Lying Dumbbell Fly + Spin Press"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day19" />
+
+        <TextView
+            android:id="@+id/chest_day21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:text="Break"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day20" />
+
+        <TextView
+            android:id="@+id/chest_monday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 15"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day15"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_tuesday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 16"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day16"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_wednesday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 17"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day17"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_thursday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 18"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day18"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_friday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 19"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day19"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_saturday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 20"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day20"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_sunday3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 21"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day21"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday15sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday14reps" />
+
+        <TextView
+            android:id="@+id/chestday15reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day15"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday16sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday16reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday15reps"
+            app:layout_constraintVertical_bias="0.909" />
+
+        <TextView
+            android:id="@+id/chestday16reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="15 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day16"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday17sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday17reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday16reps"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/chestday17reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day17"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday18sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="2 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday18reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday17reps"
+            app:layout_constraintVertical_bias="0.911" />
+
+        <TextView
+            android:id="@+id/chestday18reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="20 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day18"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday19sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="20dp"
+            android:text="3 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday18reps" />
+
+        <TextView
+            android:id="@+id/chestday19reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="15 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day19"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday20sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday20reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday19reps"
+            app:layout_constraintVertical_bias="0.92" />
+
+        <TextView
+            android:id="@+id/chestday20reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day20"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday21sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday21reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday20reps"
+            app:layout_constraintVertical_bias="0.906" />
+
+        <TextView
+            android:id="@+id/chestday21reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day21"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <TextView
+            android:id="@+id/chest_day22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Dumbbell Pull Over + Diamond Pushup"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day21" />
+
+        <TextView
+            android:id="@+id/chest_day23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Spin Press + Hand Release Pushup"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day22" />
+
+        <TextView
+            android:id="@+id/chest_day24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Dumbbell Floor Press + Decline Pushup"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day23" />
+
+
+        <TextView
+            android:id="@+id/chest_day25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Dumbbell Floor Press + One Leg Pushup"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day24" />
+
+        <TextView
+            android:id="@+id/chest_day26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Finger Out Pushup + Lying Dumbbell Fly"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day25" />
+
+        <TextView
+            android:id="@+id/chest_day27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:text="Spiderman Pushup + Dumbbell Pull Over"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day26" />
+
+        <TextView
+            android:id="@+id/chest_day28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Break"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chest_day27" />
+
+        <TextView
+            android:id="@+id/chest_monday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 22"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day22"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_tuesday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 23"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day23"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_wednesday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 24"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day24"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_thursday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 25"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day25"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_friday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 26"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day26"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chest_saturday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 27"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day27"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <TextView
+            android:id="@+id/chest_sunday4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="Day 28"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day28"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday22sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday21reps" />
+
+        <TextView
+            android:id="@+id/chestday22reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day22"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday23sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday23reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday22reps"
+            app:layout_constraintVertical_bias="0.909" />
+
+        <TextView
+            android:id="@+id/chestday23reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="15 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day23"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday24sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday24reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday23reps"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/chestday24reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day24"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday25sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="2 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday25reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday24reps"
+            app:layout_constraintVertical_bias="0.911" />
+
+        <TextView
+            android:id="@+id/chestday25reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="20 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day25"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday26sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="20dp"
+            android:text="3 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday25reps" />
+
+        <TextView
+            android:id="@+id/chestday26reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="15 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day26"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday27sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="5 Sets"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday27reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday26reps"
+            app:layout_constraintVertical_bias="0.92" />
+
+        <TextView
+            android:id="@+id/chestday27reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="10 Reps"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day27"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/chestday28sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/chestday28reps"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chestday27reps"
+            app:layout_constraintVertical_bias="0.906" />
+
+        <TextView
+            android:id="@+id/chestday28reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:textColor="#0CBA8F"
+            android:textColorHighlight="#0CBA8F"
+            android:textColorHint="#0CBA8F"
+            android:textColorLink="#0CBA8F"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/chest_day28"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#39D0E1"
+            android:onClick="goToWorkout"
+            android:text="Start Workout"
+            android:textColor="#F1EDED"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.925"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

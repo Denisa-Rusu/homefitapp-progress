@@ -4,13 +4,12 @@
 
 
     <item
-        android:id="@+id/action_plan"
+        android:id="@+id/action_progress"
         android:orderInCategory="100"
-        android:title= "GO TO PLAN"
+        android:title= "PROGRESS"
         app:showAsAction="always"
-        android:icon= "@drawable/ic_baseline_fitness_center_24"
+        android:icon= "@drawable/ic_baseline_track_changes_24"
         />
-
 
 
     <item
@@ -21,6 +20,14 @@
         android:icon= "@drawable/ic_baseline_logout_24"
         />
 
+
+    <item
+        android:id="@+id/action_plan"
+        android:orderInCategory="100"
+        android:title= "GO TO PLAN"
+        app:showAsAction="always"
+        android:icon= "@drawable/ic_baseline_fitness_center_24"
+        />
 
 
 </menu>

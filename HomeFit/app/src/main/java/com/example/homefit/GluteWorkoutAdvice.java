@@ -29,6 +29,6 @@ public class GluteWorkoutAdvice extends AppCompatActivity {
 
     public void continueToPlan(View view) {
 
-        startActivity(new Intent(GluteWorkoutAdvice.this, OneWeekGlutePlan.class));
+        startActivity(new Intent(GluteWorkoutAdvice.this, BeginnerGlutePlan.class));
     }
 }

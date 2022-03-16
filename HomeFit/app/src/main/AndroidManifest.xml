@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HomeFit">
         <activity
+            android:name=".ProgressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutActivity"
+            android:exported="false" />
+        <activity
             android:name=".ArmWorkoutGuide"
             android:exported="false" />
         <activity
@@ -23,15 +29,6 @@
             android:exported="false" />
         <activity
             android:name=".LegWorkoutGuide"
-            android:exported="false" />
-        <activity
-            android:name=".OneMonthProgress"
-            android:exported="false" />
-        <activity
-            android:name=".TwoWeekProgress"
-            android:exported="false" />
-        <activity
-            android:name=".OneWeekProgress"
             android:exported="false" />
         <activity
             android:name=".AbWorkoutAdvice"
@@ -49,58 +46,52 @@
             android:name=".ArmWorkoutAdvice"
             android:exported="false" />
         <activity
-            android:name=".EncouragementActivity"
-            android:exported="false" />
-        <activity
             android:name=".RecommendationActivity"
             android:exported="false" />
         <activity
-            android:name=".OneMonthAbPlan"
+            android:name=".IntenseAbPlan"
             android:exported="false" />
         <activity
-            android:name=".OneMonthGlutePlan"
+            android:name=".IntenseGlutePlan"
             android:exported="false" />
         <activity
-            android:name=".OneMonthChestPlan"
+            android:name=".IntenseChestPlan"
             android:exported="false" />
         <activity
-            android:name=".OneMonthLegPlan"
+            android:name=".IntenseLegPlan"
             android:exported="false" />
         <activity
-            android:name=".OneMonthArmPlan"
+            android:name=".IntenseArmPlan"
             android:exported="false" />
         <activity
-            android:name=".TwoWeekAbPlan"
+            android:name=".ModerateAbPlan"
             android:exported="false" />
         <activity
-            android:name=".TwoWeekGlutePlan"
+            android:name=".ModerateGlutePlan"
             android:exported="false" />
         <activity
-            android:name=".TwoWeekChestPlan"
+            android:name=".ModerateChestPlan"
             android:exported="false" />
         <activity
-            android:name=".TwoWeekLegPlan"
+            android:name=".ModerateLegPlan"
             android:exported="false" />
         <activity
-            android:name=".OneWeekAbPlan"
+            android:name=".BeginnerAbPlan"
             android:exported="false" />
         <activity
-            android:name=".OneWeekGlutePlan"
+            android:name=".BeginnerGlutePlan"
             android:exported="false" />
         <activity
-            android:name=".OneWeekChestPlan"
+            android:name=".BeginnerChestPlan"
             android:exported="false" />
         <activity
-            android:name=".OneWeekLegPlan"
+            android:name=".BeginnerLegPlan"
             android:exported="false" />
         <activity
-            android:name=".TwoWeekArmPlan"
+            android:name=".ModerateArmPlan"
             android:exported="false" />
         <activity
-            android:name=".OneWeekArmPlan"
-            android:exported="false" />
-        <activity
-            android:name=".ProfileActivity"
+            android:name=".BeginnerArmPlan"
             android:exported="false" />
         <activity
             android:name=".InitialLoginActivity"
