@@ -18,8 +18,6 @@ import java.util.ArrayList;
 
 public class BeginnerArmPlan extends AppCompatActivity {
 
-
-    public static final String key0 = "CHOSEN_PLAN";
     public static final String key1 = "DAY01";
     public static final String key2 = "DAY02";
     public static final String key3 = "DAY03";
@@ -54,8 +52,6 @@ public class BeginnerArmPlan extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private String Uid;
 
-
-    String chosenPlan;
     String day01;
     String day02;
     String day03;
@@ -131,7 +127,7 @@ public class BeginnerArmPlan extends AppCompatActivity {
         TextView armDay27  = findViewById(R.id.arm_day27);
         TextView armDay28  = findViewById(R.id.arm_day28);
 
-        chosenPlan = armPlan.getText().toString();
+        String chosenPlan = armPlan.getText().toString();
         day01 = armDay1.getText().toString();
         day02 = armDay2.getText().toString();
         day03 = armDay3.getText().toString();
@@ -173,7 +169,6 @@ public class BeginnerArmPlan extends AppCompatActivity {
 
     public void goToWorkout(View view) {
         Intent intent = new Intent(BeginnerArmPlan.this, WorkoutActivity.class);
-        intent.putExtra(key0, chosenPlan);
         intent.putExtra(key1, day01);
         intent.putExtra(key2, day02);
         intent.putExtra(key3, day03);
