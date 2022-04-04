@@ -16,21 +16,6 @@
             android:name=".WorkoutActivity"
             android:exported="false" />
         <activity
-            android:name=".ArmWorkoutGuide"
-            android:exported="false" />
-        <activity
-            android:name=".AbWorkoutGuide"
-            android:exported="false" />
-        <activity
-            android:name=".GluteWorkoutGuide"
-            android:exported="false" />
-        <activity
-            android:name=".ChestWorkoutGuide"
-            android:exported="false" />
-        <activity
-            android:name=".LegWorkoutGuide"
-            android:exported="false" />
-        <activity
             android:name=".AbWorkoutAdvice"
             android:exported="false" />
         <activity

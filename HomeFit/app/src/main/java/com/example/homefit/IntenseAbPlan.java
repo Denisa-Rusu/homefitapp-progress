@@ -99,7 +99,7 @@ public class IntenseAbPlan extends AppCompatActivity {
         TextView absDay1  = findViewById(R.id.abs_day1);
         TextView absDay2  = findViewById(R.id.abs_day2);
         TextView absDay3  = findViewById(R.id.abs_day3);
-        TextView absDay4  = findViewById(R.id.workout4);
+        TextView absDay4  = findViewById(R.id.abs_day4);
         TextView absDay5  = findViewById(R.id.abs_day5);
         TextView absDay6  = findViewById(R.id.abs_day6);
         TextView absDay7  = findViewById(R.id.abs_day7);
