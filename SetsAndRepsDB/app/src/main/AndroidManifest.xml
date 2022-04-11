@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.homefit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HomeFit">
+        <activity
+            android:name=".ProgressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AbWorkoutAdvice"
+            android:exported="false" />
+        <activity
+            android:name=".GluteWorkoutAdvice"
+            android:exported="false" />
+        <activity
+            android:name=".ChestWorkoutAdvice"
+            android:exported="false" />
+        <activity
+            android:name=".LegWorkoutAdvice"
+            android:exported="false" />
+        <activity
+            android:name=".ArmWorkoutAdvice"
+            android:exported="false" />
+        <activity
+            android:name=".RecommendationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntenseAbPlan"
+            android:exported="false" />
+        <activity
+            android:name=".IntenseGlutePlan"
+            android:exported="false" />
+        <activity
+            android:name=".IntenseChestPlan"
+            android:exported="false" />
+        <activity
+            android:name=".IntenseLegPlan"
+            android:exported="false" />
+        <activity
+            android:name=".IntenseArmPlan"
+            android:exported="false" />
+        <activity
+            android:name=".ModerateAbPlan"
+            android:exported="false" />
+        <activity
+            android:name=".ModerateGlutePlan"
+            android:exported="false" />
+        <activity
+            android:name=".ModerateChestPlan"
+            android:exported="false" />
+        <activity
+            android:name=".ModerateLegPlan"
+            android:exported="false" />
+        <activity
+            android:name=".BeginnerAbPlan"
+            android:exported="false" />
+        <activity
+            android:name=".BeginnerGlutePlan"
+            android:exported="false" />
+        <activity
+            android:name=".BeginnerChestPlan"
+            android:exported="false" />
+        <activity
+            android:name=".BeginnerLegPlan"
+            android:exported="false" />
+        <activity
+            android:name=".ModerateArmPlan"
+            android:exported="false" />
+        <activity
+            android:name=".BeginnerArmPlan"
+            android:exported="false" />
+        <activity
+            android:name=".InitialLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

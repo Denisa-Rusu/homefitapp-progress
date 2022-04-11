@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_ab_plan.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_ab_workout_advice.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_ab_workout_guide.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_arm_plan.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_arm_workout_advice.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_arm_workout_guide.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_beginner_ab_plan.xml" value="0.2319961333977767" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_beginner_arm_plan.xml" value="0.23715415019762845" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_beginner_chest_plan.xml" value="0.22273781902552203" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_beginner_glute_plan.xml" value="0.22263450834879406" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_beginner_leg_plan.xml" value="0.22482435597189696" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_chest_plan.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_chest_workout_advice.xml" value="0.2359375" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_chest_workout_guide.xml" value="0.2359375" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_details.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_encouragement.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_glute_plan.xml" value="0.2359375" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_glute_workout_advice.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_glute_workout_guide.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_initial_login.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_intense_ab_plan.xml" value="0.22705771050141912" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_intense_arm_plan.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_intense_chest_plan.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_intense_glute_plan.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_intense_leg_plan.xml" value="0.24193548387096775" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_leg_plan.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_leg_workout_advice.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_leg_workout_guide.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_moderate_ab_plan.xml" value="0.22705771050141912" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_moderate_arm_plan.xml" value="0.23750618505690252" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_moderate_chest_plan.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_moderate_glute_plan.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_moderate_leg_plan.xml" value="0.23952095808383234" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_one_month_ab_plan.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_one_month_arm_plan.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_one_month_chest_plan.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_one_month_glute_plan.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_one_month_leg_plan.xml" value="0.2459016393442623" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_one_month_progress.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_one_week_ab_plan.xml" value="0.264" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_one_week_arm_plan.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_one_week_chest_plan.xml" value="0.23731884057971014" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_one_week_glute_plan.xml" value="0.23731884057971014" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_one_week_leg_plan.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_one_week_progress.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_progress.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_recommendation.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_register.xml" value="0.24320652173913043" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_two_week_ab_plan.xml" value="0.264" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_two_week_arm_plan.xml" value="0.26072786529060293" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_two_week_chest_plan.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_two_week_glute_plan.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_two_week_leg_plan.xml" value="0.2459016393442623" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_two_week_progress.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_welcome.xml" value="0.264" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/layout/activity_workout.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/menu/main_menu.xml" value="0.25" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/menu/plan_menu.xml" value="0.264" />
+        <entry key="..\:/Users/denya/AndroidStudioProjects/HomeFit/app/src/main/res/menu/secondary_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

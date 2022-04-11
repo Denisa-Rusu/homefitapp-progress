@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">HomeFit</string>
+    <string name="fitness_goal" />
+
+
+    <string-array name="CaloriesToBurn">
+        <item>-- Calories to Burn --</item>
+
+        <item>Less than 1,000 Cals</item>
+        <item>Between 1,000 and 2,500 Cals</item>
+        <item>More than 2,500 Cals</item>
+    </string-array>
+
+
+    <string-array name="FitnessGoal">
+        <item>-- Fitness Goal --</item>
+
+        <item>Arms</item>
+        <item>Legs</item>
+        <item>Chest</item>
+        <item>Glutes</item>
+        <item>Abs</item>
+    </string-array>
+
+
+    <string-array name="FitnessActivity">
+        <item>-- Fitness Activity --</item>
+
+        <item>Very Active</item>
+        <item>Active</item>
+        <item>Inactive</item>
+    </string-array>
+
+
+    <style name="Theme.HomeFit" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
