@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".TrackWeekOneWorkout">
+
+
+        <TextView
+            android:id="@+id/trackmyworkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Track My Workout"
+            android:textColor="#07808E"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.034" />
+
+        <TextView
+            android:id="@+id/day1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="DAY 01"
+            android:textColor="#07808E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/trackmyworkout" />
+
+        <TextView
+            android:id="@+id/day2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:text="DAY 02"
+            android:textColor="#07808E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day1" />
+
+        <TextView
+            android:id="@+id/day3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:text="DAY 03"
+            android:textColor="#07808E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day2" />
+
+        <TextView
+            android:id="@+id/day4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:text="DAY 04"
+            android:textColor="#07808E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day3" />
+
+        <TextView
+            android:id="@+id/day5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:text="DAY 05"
+            android:textColor="#07808E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day4" />
+
+        <Spinner
+            android:id="@+id/day1_ex1_reps_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseOneReps"
+            android:textAlignment="gravity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.118"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day1"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/day1_ex2_reps_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseTwoReps"
+            android:textAlignment="gravity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.878"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day1"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+        <Spinner
+            android:id="@+id/day1_ex1_sets_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseOneSets"
+            android:textAlignment="gravity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.118"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day1_ex1_reps_spinner"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/day1_ex2_sets_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseTwoSets"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.878"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day1_ex2_reps_spinner"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+        <Spinner
+            android:id="@+id/day2_ex1_reps_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseOneReps"
+            android:textAlignment="gravity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.118"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day2"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/day2_ex2_reps_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseTwoReps"
+            android:textAlignment="gravity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.878"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day2"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+        <Spinner
+            android:id="@+id/day2_ex1_sets_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseOneSets"
+            android:textAlignment="gravity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.118"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day2_ex1_reps_spinner"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/day2_ex2_sets_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseTwoSets"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.878"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day2_ex2_reps_spinner"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+        <Spinner
+            android:id="@+id/day3_ex1_reps_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseOneReps"
+            android:textAlignment="gravity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.118"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day3"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/day3_ex2_reps_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseTwoReps"
+            android:textAlignment="gravity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.878"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day3"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+        <Spinner
+            android:id="@+id/day3_ex1_sets_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseOneSets"
+            android:textAlignment="gravity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.118"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day3_ex1_reps_spinner"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/day3_ex2_sets_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseTwoSets"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.878"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day3_ex2_reps_spinner"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+        <Spinner
+            android:id="@+id/day4_ex1_reps_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseOneReps"
+            android:textAlignment="gravity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.118"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day4"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/day4_ex2_reps_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseTwoReps"
+            android:textAlignment="gravity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.878"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day4"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+        <Spinner
+            android:id="@+id/day4_ex1_sets_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseOneSets"
+            android:textAlignment="gravity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.118"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day4_ex1_reps_spinner"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/day4_ex2_sets_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseTwoSets"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.878"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day4_ex2_reps_spinner"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+        <Spinner
+            android:id="@+id/day5_ex1_reps_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseOneReps"
+            android:textAlignment="gravity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.118"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day5"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/day5_ex2_reps_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseTwoReps"
+            android:textAlignment="gravity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.878"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day5"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+        <Spinner
+            android:id="@+id/day5_ex1_sets_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseOneSets"
+            android:textAlignment="gravity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.118"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day5_ex1_reps_spinner"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Spinner
+            android:id="@+id/day5_ex2_sets_spinner"
+            style="@android:style/Widget.Material.Spinner.Underlined"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FF9100"
+            android:entries="@array/ExerciseTwoSets"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.878"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day5_ex2_reps_spinner"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/day1ex1calories"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="#BDF68E"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.355"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day1_ex1_sets_spinner" />
+
+        <TextView
+            android:id="@+id/day1ex2calories"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="#BDF68E"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.911"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day1_ex2_sets_spinner" />
+
+        <TextView
+            android:id="@+id/day2ex1calories"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="#BDF68E"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.355"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day2_ex1_sets_spinner" />
+
+
+        <TextView
+            android:id="@+id/day2ex2calories"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="#BDF68E"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.911"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day2_ex2_sets_spinner" />
+
+        <TextView
+            android:id="@+id/day3ex1calories"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="#BDF68E"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.355"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day3_ex1_sets_spinner" />
+
+
+        <TextView
+            android:id="@+id/day3ex2calories"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="#BDF68E"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.911"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day3_ex2_sets_spinner" />
+
+        <TextView
+            android:id="@+id/day4ex1calories"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="#BDF68E"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.355"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day4_ex1_sets_spinner" />
+
+        <TextView
+            android:id="@+id/day4ex2calories"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="#BDF68E"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.911"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day4_ex2_sets_spinner" />
+
+        <TextView
+            android:id="@+id/day5ex1calories"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="#BDF68E"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.355"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day5_ex1_sets_spinner" />
+
+        <TextView
+            android:id="@+id/day5ex2calories"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:background="#BDF68E"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.911"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/day5_ex2_sets_spinner"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/day1ex1calulate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#00E5FF"
+            android:onClick="day1ex1Calculate"
+            android:text="Calculate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.167"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day1ex1calories" />
+
+        <Button
+            android:id="@+id/day1ex2calulate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#00E5FF"
+            android:onClick="day1ex2Calculate"
+            android:text="Calculate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.839"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day1ex2calories" />
+
+
+        <Button
+            android:id="@+id/day2ex1calulate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#00E5FF"
+            android:onClick="day2ex1Calculate"
+            android:text="Calculate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.167"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day2ex1calories" />
+
+        <Button
+            android:id="@+id/day2ex2calulate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#00E5FF"
+            android:onClick="day2ex2Calculate"
+            android:text="Calculate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.839"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day2ex2calories" />
+
+        <Button
+            android:id="@+id/day3ex1calulate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#00E5FF"
+            android:onClick="day3ex1Calculate"
+            android:text="Calculate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.167"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day3ex1calories" />
+
+        <Button
+            android:id="@+id/day3ex2calulate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#00E5FF"
+            android:onClick="day3ex2Calculate"
+            android:text="Calculate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.839"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day3ex2calories" />
+
+
+        <Button
+            android:id="@+id/day4ex1calulate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#00E5FF"
+            android:onClick="day4ex1Calculate"
+            android:text="Calculate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.167"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day4ex1calories" />
+
+        <Button
+            android:id="@+id/day4ex2calulate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#00E5FF"
+            android:onClick="day4ex2Calculate"
+            android:text="Calculate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.839"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day4ex2calories" />
+
+
+        <Button
+            android:id="@+id/day5ex1calulate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#00E5FF"
+            android:onClick="day5ex1Calculate"
+            android:text="Calculate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.167"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day5ex1calories" />
+
+        <Button
+            android:id="@+id/day5ex2calulate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#00E5FF"
+            android:onClick="day5ex2Calculate"
+            android:text="Calculate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.839"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day5ex2calories" />
+
+        <TextView
+            android:id="@+id/day1ex1Textview"
+            android:layout_width="95dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:text="Cals Burned :"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.101"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day1_ex1_sets_spinner" />
+
+        <TextView
+            android:id="@+id/day1ex2Texview"
+            android:layout_width="95dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:text="Cals Burned :"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.753"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day1_ex2_sets_spinner" />
+
+        <TextView
+            android:id="@+id/day2ex1Textview"
+            android:layout_width="95dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:text="Cals Burned :"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.101"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day2_ex1_sets_spinner" />
+
+        <TextView
+            android:id="@+id/day2ex2Texview"
+            android:layout_width="95dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:text="Cals Burned :"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.753"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day2_ex2_sets_spinner" />
+
+        <TextView
+            android:id="@+id/day3ex1Textview"
+            android:layout_width="95dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:text="Cals Burned :"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.101"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day3_ex1_sets_spinner" />
+
+        <TextView
+            android:id="@+id/day3ex2Texview"
+            android:layout_width="95dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:text="Cals Burned :"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.753"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day3_ex2_sets_spinner" />
+
+        <TextView
+            android:id="@+id/day4ex1Textview"
+            android:layout_width="95dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:text="Cals Burned :"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.101"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day4_ex1_sets_spinner" />
+
+        <TextView
+            android:id="@+id/day4ex2Texview"
+            android:layout_width="95dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:text="Cals Burned :"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.753"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day4_ex2_sets_spinner" />
+
+        <TextView
+            android:id="@+id/day5ex1Textview"
+            android:layout_width="95dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:text="Cals Burned :"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.101"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day5_ex1_sets_spinner" />
+
+        <TextView
+            android:id="@+id/day5ex2Texview"
+            android:layout_width="95dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:text="Cals Burned :"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.753"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day5_ex2_sets_spinner" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">HomeFit</string>
+    <string name="fitness_goal" />
+
+
+    <string-array name="CaloriesToBurn">
+        <item>-- Calories to Burn --</item>
+
+        <item>Less than 1,000 Cals</item>
+        <item>Between 1,000 and 2,500 Cals</item>
+        <item>More than 2,500 Cals</item>
+    </string-array>
+
+
+    <string-array name="FitnessGoal">
+        <item>-- Fitness Goal --</item>
+
+        <item>Arms</item>
+        <item>Legs</item>
+        <item>Chest</item>
+        <item>Glutes</item>
+        <item>Abs</item>
+    </string-array>
+
+
+    <string-array name="FitnessActivity">
+        <item>-- Fitness Activity --</item>
+
+        <item>Very Active</item>
+        <item>Active</item>
+        <item>Inactive</item>
+    </string-array>
+
+
+    <string-array name="ExerciseOneReps">
+        <item>Ex1 Reps</item>
+
+        <item>Less than 5</item>
+        <item>Between 5 and 10</item>
+        <item>Between 10 and 15</item>
+        <item>Between 15 and 20</item>
+        <item>Between 20 and 25</item>
+        <item>Between 25 and 30</item>
+        <item>Between 30 and 35</item>
+        <item>More than 35</item>
+    </string-array>
+
+    <string-array name="ExerciseOneSets">
+        <item>Ex1 Sets</item>
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+
+    <string-array name="ExerciseTwoReps">
+        <item>Ex2 Reps</item>
+
+        <item>Less than 5</item>
+        <item>Between 5 and 10</item>
+        <item>Between 10 and 15</item>
+        <item>Between 15 and 20</item>
+        <item>Between 20 and 25</item>
+        <item>Between 25 and 30</item>
+        <item>Between 30 and 35</item>
+        <item>More than 35</item>
+    </string-array>
+
+    <string-array name="ExerciseTwoSets">
+        <item>Ex2 Sets</item>
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+
+    <style name="Theme.HomeFit" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

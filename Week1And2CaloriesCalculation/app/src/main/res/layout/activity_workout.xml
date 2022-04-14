@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTintMode="add"
+    tools:context=".WorkoutActivity">
+
+
+    <TextView
+        android:id="@+id/workout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="My Workout"
+        android:textAlignment="center"
+        android:textColor="#07808E"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/week1workout"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00E5FF"
+        android:fontFamily="sans-serif-light"
+        android:onClick="week1Workout"
+        android:text="Week One"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <Button
+        android:id="@+id/week2workout"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00E5FF"
+        android:fontFamily="sans-serif-light"
+        android:onClick="week2Workout"
+        android:text="Week Two"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <Button
+        android:id="@+id/week3workout"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00E5FF"
+        android:fontFamily="sans-serif-light"
+        android:onClick="week3Workout"
+        android:text="Week Three"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <Button
+        android:id="@+id/week4workout"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#00E5FF"
+        android:fontFamily="sans-serif-light"
+        android:onClick="week4Workout"
+        android:text="Week Four"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
