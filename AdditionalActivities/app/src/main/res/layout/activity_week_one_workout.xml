@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".WeekOneWorkoutActivity">
+
+
+        <TextView
+            android:id="@+id/weekoneworkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="88dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Week One Workout"
+            android:textAlignment="center"
+            android:textColor="#07808E"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/day1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="DAY 01"
+            android:textColor="#07808E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/weekoneworkout" />
+
+        <TextView
+            android:id="@+id/workout1"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="8dp"
+            android:background="#1700E5FF"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#0C0C0C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.155"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/workout1performance" />
+
+        <TextView
+            android:id="@+id/day2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="DAY 02"
+            android:textColor="#07808E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.776"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/weekoneworkout" />
+
+
+        <TextView
+            android:id="@+id/workout2"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="8dp"
+            android:background="#1700E5FF"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#0C0C0C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.831"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/workout2performance" />
+
+        <TextView
+            android:id="@+id/day3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:text="DAY 03"
+            android:textColor="#07808E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day1" />
+
+        <TextView
+            android:id="@+id/workout3"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="8dp"
+            android:background="#1700E5FF"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#0C0C0C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.155"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/workout3performance" />
+
+        <TextView
+            android:id="@+id/day4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:text="DAY 04"
+            android:textColor="#07808E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day2" />
+
+        <TextView
+            android:id="@+id/workout4"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="8dp"
+            android:background="#1700E5FF"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#0C0C0C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.831"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/workout4performance" />
+
+        <TextView
+            android:id="@+id/day5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:text="DAY 05"
+            android:textColor="#07808E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day3" />
+
+        <TextView
+            android:id="@+id/workout5"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="8dp"
+            android:background="#1700E5FF"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#0C0C0C"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.155"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/workout5performance" />
+
+        <TextView
+            android:id="@+id/day6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="245dp"
+            android:text="DAY 06"
+            android:textColor="#07808E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.779"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/workout4performance" />
+
+        <TextView
+            android:id="@+id/workout6"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="40dp"
+            android:background="#1700E5FF"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#F620E0"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.831"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day6" />
+
+        <TextView
+            android:id="@+id/day7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="245dp"
+            android:text="DAY 07"
+            android:textColor="#07808E"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day6" />
+
+        <TextView
+            android:id="@+id/workout7"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="40dp"
+            android:background="#1700E5FF"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#F620E0"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day7" />
+
+        <TextView
+            android:id="@+id/workout1performance"
+            android:layout_width="115dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="8dp"
+            android:background="#BDF68E"
+            android:textAlignment="center"
+            android:textColor="#0B0A0A"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.155"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day1" />
+
+        <TextView
+            android:id="@+id/workout2performance"
+            android:layout_width="115dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="8dp"
+            android:background="#BDF68E"
+            android:textAlignment="center"
+            android:textColor="#0B0A0A"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.831"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day2" />
+
+        <TextView
+            android:id="@+id/workout3performance"
+            android:layout_width="115dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="8dp"
+            android:background="#BDF68E"
+            android:textAlignment="center"
+            android:textColor="#0B0A0A"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.155"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day3" />
+
+        <TextView
+            android:id="@+id/workout4performance"
+            android:layout_width="115dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="8dp"
+            android:background="#BDF68E"
+            android:textAlignment="center"
+            android:textColor="#0B0A0A"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.831"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day4" />
+
+        <TextView
+            android:id="@+id/workout5performance"
+            android:layout_width="115dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="8dp"
+            android:background="#BDF68E"
+            android:textAlignment="center"
+            android:textColor="#0B0A0A"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.155"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/day5" />
+
+
+        <Button
+            android:id="@+id/trackworkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="#00E5FF"
+            android:onClick="trackWorkout"
+            android:text="Track Workout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.897"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
